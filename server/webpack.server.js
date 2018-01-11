@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     // Inform Webpack that we're building a bundle
     // for nodeJS, rather than for the browser
-    target: node,
+    target: 'node',
 
     // Tell Webpack the root file of our 
     // server application
